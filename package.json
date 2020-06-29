@@ -1,0 +1,33 @@
+{
+  "name": "slot",
+  "version": "1.0.0",
+  "description": "a simple slot game in pixi.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc && webpack -p",
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js -e ts --exec \"npm run compile\"",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "slot",
+    "pixi",
+    "personal",
+    "project"
+  ],
+  "author": "Mikhail Gilev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "pixi.js": "^5.2.4",
+    "uuid": "^8.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

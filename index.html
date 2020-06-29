@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Rock Climber Slot</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      color: white;
+      background-color: black;
+    }
+
+    #loading-div {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      margin-top: 40vh;
+      position: relative;
+      width: 30vw;
+      min-width: 400px;
+    }
+
+    #loading-div-lower-part {
+      margin-top: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    #loading-bar-container {
+      width: 85%;
+    }
+
+    #loading-bar {
+      background-color: green;
+      width: 0%;
+      height: 14px;
+      border-radius: 7px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="loading-div">
+    <h1>Loading...</h1>
+    <div id="loading-div-lower-part">
+      <div id="loading-bar-container">
+        <div id="loading-bar"></div>
+      </div>
+      <h3 id="progress-text">0%</h3>
+    </div>
+  </div>
+  <script src="./bundle.js"></script>
+</body>
+
+</html>

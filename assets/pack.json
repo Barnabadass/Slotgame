@@ -1,0 +1,1494 @@
+{
+  "controls": [
+    {
+      "type": "picture",
+      "texture": "back.png",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "name": "main_bg"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_0.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_0"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_1.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_1"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_2.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_2"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_3.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_3"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_4.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_4"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_5.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_5"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_6.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_6"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_7.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_7"
+    },
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": -151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_1_0"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 0,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_1_1"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_1_2"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 302,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_1_3"
+        }
+      ],
+      "x": 250,
+      "y": 163,
+      "visible": true,
+      "name": "reel_1"
+    },
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": -151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_2_0"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 0,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_2_1"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_2_2"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 302,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_2_3"
+        }
+      ],
+      "x": 408,
+      "y": 163,
+      "visible": true,
+      "name": "reel_2"
+    },
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": -151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_3_0"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 0,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_3_1"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_3_2"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 302,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_3_3"
+        }
+      ],
+      "x": 566,
+      "y": 163,
+      "visible": true,
+      "name": "reel_3"
+    },
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": -151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_4_0"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 0,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_4_1"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_4_2"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 302,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_4_3"
+        }
+      ],
+      "x": 724,
+      "y": 163,
+      "visible": true,
+      "name": "reel_4"
+    },
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": -151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_5_0"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 0,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_5_1"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 151,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_5_2"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "sym_0.png"
+          ],
+          "x": 72,
+          "y": 302,
+          "anchorx": 0.5,
+          "anchory": 0.5,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "s_5_3"
+        }
+      ],
+      "x": 882,
+      "y": 163,
+      "visible": true,
+      "name": "reel_5"
+    },
+    {
+      "type": "picture",
+      "texture": "b2.png",
+      "x": 275,
+      "y": 600,
+      "visible": true,
+      "name": "bet_field"
+    },
+    {
+      "type": "picture",
+      "texture": "b1.png",
+      "x": 265,
+      "y": 600,
+      "visible": true,
+      "name": "bet_field_frame_left"
+    },
+    {
+      "type": "picture",
+      "texture": "b1.png",
+      "x": 465,
+      "y": 600,
+      "scalex": -1,
+      "visible": true,
+      "name": "bet_field_frame_right"
+    },
+    {
+      "type": "label",
+      "fontSize": 20,
+      "fontWeight": "600",
+      "x": 320,
+      "y": 575,
+      "align": "center",
+      "visible": true,
+      "color": "lightyellow",
+      "text": "LINE BET",
+      "name": "lb_bet_text"
+    },
+    {
+      "type": "label",
+      "fontSize": 20,
+      "fontWeight": "600",
+      "x": 364,
+      "y": 602,
+      "align": "center",
+      "anchorx": 0.5,
+      "visible": true,
+      "color": "white",
+      "text": "1",
+      "name": "lb_bet"
+    },
+    {
+      "type": "picture",
+      "texture": "b2.png",
+      "x": 535,
+      "y": 670,
+      "visible": true,
+      "name": "total_bet_field"
+    },
+    {
+      "type": "picture",
+      "texture": "b1.png",
+      "x": 535,
+      "y": 670,
+      "visible": true,
+      "name": "total_bet_field_frame_left"
+    },
+    {
+      "type": "picture",
+      "texture": "b1.png",
+      "x": 735,
+      "y": 670,
+      "scalex": -1,
+      "visible": true,
+      "name": "total_bet_field_frame_right"
+    },
+    {
+      "type": "label",
+      "fontSize": 20,
+      "fontWeight": "600",
+      "x": 578,
+      "y": 645,
+      "align": "center",
+      "visible": true,
+      "color": "lightyellow",
+      "text": "TOTAL BET",
+      "name": "lb_total_bet_text"
+    },
+    {
+      "type": "label",
+      "fontSize": 20,
+      "fontWeight": "600",
+      "x": 631,
+      "y": 672,
+      "align": "center",
+      "anchorx": 0.5,
+      "visible": true,
+      "color": "white",
+      "text": "1",
+      "name": "lb_total_bet"
+    },
+    {
+      "type": "picture",
+      "texture": "b2.png",
+      "x": 825,
+      "y": 600,
+      "visible": true,
+      "name": "balance_field"
+    },
+    {
+      "type": "picture",
+      "texture": "b1.png",
+      "x": 815,
+      "y": 600,
+      "visible": true,
+      "name": "balance_field_frame_left"
+    },
+    {
+      "type": "picture",
+      "texture": "b1.png",
+      "x": 1015,
+      "y": 600,
+      "scalex": -1,
+      "visible": true,
+      "name": "balance_field_frame_right"
+    },
+    {
+      "type": "label",
+      "fontSize": 20,
+      "fontWeight": "600",
+      "x": 860,
+      "y": 575,
+      "align": "center",
+      "visible": true,
+      "color": "lightyellow",
+      "text": "BALANCE",
+      "name": "lb_balance_text"
+    },
+    {
+      "type": "label",
+      "fontSize": 20,
+      "fontWeight": "600",
+      "x": 912,
+      "y": 602,
+      "align": "center",
+      "anchorx": 0.5,
+      "visible": true,
+      "color": "white",
+      "text": "1",
+      "name": "lb_balance"
+    },
+    {
+      "type": "button",
+      "x": 25,
+      "y": 25,
+      "visible": true,
+      "normalStateTexture": "info_btn.png",
+      "pressedStateTexture": "info_btn.png",
+      "name": "button_info"
+    },
+    {
+      "type": "button",
+      "x": 1100,
+      "y": 647,
+      "visible": true,
+      "normalStateTexture": "start_active_btn.png",
+      "pressedStateTexture": "start_btn.png",
+      "name": "button_spin"
+    },
+    {
+      "type": "button",
+      "x": 280,
+      "y": 712,
+      "visible": true,
+      "normalStateTexture": "lines_active.png",
+      "pressedStateTexture": "lines.png",
+      "name": "button_lines"
+    },
+    {
+      "type": "button",
+      "x": 530,
+      "y": 712,
+      "visible": true,
+      "normalStateTexture": "betone_active.png",
+      "pressedStateTexture": "betone.png",
+      "name": "button_betone"
+    },
+    {
+      "type": "button",
+      "x": 780,
+      "y": 712,
+      "visible": true,
+      "normalStateTexture": "betmax_active.png",
+      "pressedStateTexture": "betmax.png",
+      "name": "button_betmax"
+    },
+    {
+      "type": "button",
+      "toggle": true,
+      "x": -30,
+      "y": 647,
+      "visible": true,
+      "normalStateTexture": "auto_spin_active.png",
+      "pressedStateTexture": "auto_spin.png",
+      "name": "button_auto_spin"
+    },
+    {
+      "type": "picture",
+      "texture": "1_inactive.png",
+      "x": 100,
+      "y": 90,
+      "visible": true,
+      "name": "1_line_pin_inactive_left"
+    },
+    {
+      "type": "picture",
+      "texture": "1_.png",
+      "x": 100,
+      "y": 90,
+      "visible": true,
+      "name": "1_line_pin_active_left"
+    },
+    {
+      "type": "picture",
+      "texture": "2_inactive.png",
+      "x": 100,
+      "y": 140,
+      "visible": true,
+      "name": "2_line_pin_inactive_left"
+    },
+    {
+      "type": "picture",
+      "texture": "2.png",
+      "x": 100,
+      "y": 140,
+      "visible": true,
+      "name": "2_line_pin_active_left"
+    },
+    {
+      "type": "picture",
+      "texture": "3_inactive.png",
+      "x": 100,
+      "y": 190,
+      "visible": true,
+      "name": "3_line_pin_inactive_left"
+    },
+    {
+      "type": "picture",
+      "texture": "3.png",
+      "x": 100,
+      "y": 190,
+      "visible": true,
+      "name": "3_line_pin_active_left"
+    },
+    {
+      "type": "picture",
+      "texture": "4_inactive.png",
+      "x": 100,
+      "y": 240,
+      "visible": true,
+      "name": "4_line_pin_inactive_left"
+    },
+    {
+      "type": "picture",
+      "texture": "4.png",
+      "x": 100,
+      "y": 240,
+      "visible": true,
+      "name": "4_line_pin_active_left"
+    },
+    {
+      "type": "picture",
+      "texture": "5_inactive.png",
+      "x": 100,
+      "y": 290,
+      "visible": true,
+      "name": "5_line_pin_inactive_left"
+    },
+    {
+      "type": "picture",
+      "texture": "5.png",
+      "x": 100,
+      "y": 290,
+      "visible": true,
+      "name": "5_line_pin_active_left"
+    },
+    {
+      "type": "picture",
+      "texture": "6_inactive.png",
+      "x": 100,
+      "y": 340,
+      "visible": true,
+      "name": "6_line_pin_inactive_left"
+    },
+    {
+      "type": "picture",
+      "texture": "6.png",
+      "x": 100,
+      "y": 340,
+      "visible": true,
+      "name": "6_line_pin_active_left"
+    },
+    {
+      "type": "picture",
+      "texture": "7_inactive.png",
+      "x": 100,
+      "y": 390,
+      "visible": true,
+      "name": "7_line_pin_inactive_left"
+    },
+    {
+      "type": "picture",
+      "texture": "7.png",
+      "x": 100,
+      "y": 390,
+      "visible": true,
+      "name": "7_line_pin_active_left"
+    },
+    {
+      "type": "picture",
+      "texture": "8_inactive.png",
+      "x": 100,
+      "y": 440,
+      "visible": true,
+      "name": "8_line_pin_inactive_left"
+    },
+    {
+      "type": "picture",
+      "texture": "8.png",
+      "x": 100,
+      "y": 440,
+      "visible": true,
+      "name": "8_line_pin_active_left"
+    },
+    {
+      "type": "picture",
+      "texture": "9_inactive.png",
+      "x": 100,
+      "y": 490,
+      "visible": true,
+      "name": "9_line_pin_inactive_left"
+    },
+    {
+      "type": "picture",
+      "texture": "9.png",
+      "x": 100,
+      "y": 490,
+      "visible": true,
+      "name": "9_line_pin_active_left"
+    },
+    {
+      "type": "picture",
+      "texture": "1_inactive.png",
+      "x": 1090,
+      "y": 90,
+      "visible": true,
+      "name": "1_line_pin_inactive_right"
+    },
+    {
+      "type": "picture",
+      "texture": "1_.png",
+      "x": 1090,
+      "y": 90,
+      "visible": true,
+      "name": "1_line_pin_active_right"
+    },
+    {
+      "type": "picture",
+      "texture": "2_inactive.png",
+      "x": 1090,
+      "y": 140,
+      "visible": true,
+      "name": "2_line_pin_inactive_right"
+    },
+    {
+      "type": "picture",
+      "texture": "2.png",
+      "x": 1090,
+      "y": 140,
+      "visible": true,
+      "name": "2_line_pin_active_right"
+    },
+    {
+      "type": "picture",
+      "texture": "3_inactive.png",
+      "x": 1090,
+      "y": 190,
+      "visible": true,
+      "name": "3_line_pin_inactive_right"
+    },
+    {
+      "type": "picture",
+      "texture": "3.png",
+      "x": 1090,
+      "y": 190,
+      "visible": true,
+      "name": "3_line_pin_active_right"
+    },
+    {
+      "type": "picture",
+      "texture": "4_inactive.png",
+      "x": 1090,
+      "y": 240,
+      "visible": true,
+      "name": "4_line_pin_inactive_right"
+    },
+    {
+      "type": "picture",
+      "texture": "4.png",
+      "x": 1090,
+      "y": 240,
+      "visible": true,
+      "name": "4_line_pin_active_right"
+    },
+    {
+      "type": "picture",
+      "texture": "5_inactive.png",
+      "x": 1090,
+      "y": 290,
+      "visible": true,
+      "name": "5_line_pin_inactive_right"
+    },
+    {
+      "type": "picture",
+      "texture": "5.png",
+      "x": 1090,
+      "y": 290,
+      "visible": true,
+      "name": "5_line_pin_active_right"
+    },
+    {
+      "type": "picture",
+      "texture": "6_inactive.png",
+      "x": 1090,
+      "y": 340,
+      "visible": true,
+      "name": "6_line_pin_inactive_right"
+    },
+    {
+      "type": "picture",
+      "texture": "6.png",
+      "x": 1090,
+      "y": 340,
+      "visible": true,
+      "name": "6_line_pin_active_right"
+    },
+    {
+      "type": "picture",
+      "texture": "7_inactive.png",
+      "x": 1090,
+      "y": 390,
+      "visible": true,
+      "name": "7_line_pin_inactive_right"
+    },
+    {
+      "type": "picture",
+      "texture": "7.png",
+      "x": 1090,
+      "y": 390,
+      "visible": true,
+      "name": "7_line_pin_active_right"
+    },
+    {
+      "type": "picture",
+      "texture": "8_inactive.png",
+      "x": 1090,
+      "y": 440,
+      "visible": true,
+      "name": "8_line_pin_inactive_right"
+    },
+    {
+      "type": "picture",
+      "texture": "8.png",
+      "x": 1090,
+      "y": 440,
+      "visible": true,
+      "name": "8_line_pin_active_right"
+    },
+    {
+      "type": "picture",
+      "texture": "9_inactive.png",
+      "x": 1090,
+      "y": 490,
+      "visible": true,
+      "name": "9_line_pin_inactive_right"
+    },
+    {
+      "type": "picture",
+      "texture": "9.png",
+      "x": 1090,
+      "y": 490,
+      "visible": true,
+      "name": "9_line_pin_active_right"
+    },
+    {
+      "type": "picture",
+      "texture": "line_1.png",
+      "x": 150,
+      "y": 110,
+      "visible": false,
+      "name": "line_1"
+    },
+    {
+      "type": "picture",
+      "texture": "line_2.png",
+      "x": 150,
+      "y": 160,
+      "visible": false,
+      "name": "line_2"
+    },
+    {
+      "type": "picture",
+      "texture": "line_3.png",
+      "x": 150,
+      "y": 210,
+      "visible": false,
+      "name": "line_3"
+    },
+    {
+      "type": "picture",
+      "texture": "line_4.png",
+      "x": 150,
+      "y": 140,
+      "visible": false,
+      "name": "line_4"
+    },
+    {
+      "type": "picture",
+      "texture": "line_5.png",
+      "x": 150,
+      "y": 310,
+      "visible": false,
+      "name": "line_5"
+    },
+    {
+      "type": "picture",
+      "texture": "line_6.png",
+      "x": 150,
+      "y": 360,
+      "visible": false,
+      "name": "line_6"
+    },
+    {
+      "type": "picture",
+      "texture": "line_7.png",
+      "x": 150,
+      "y": 120,
+      "visible": false,
+      "name": "line_7"
+    },
+    {
+      "type": "picture",
+      "texture": "line_8.png",
+      "x": 150,
+      "y": 295,
+      "visible": false,
+      "name": "line_8"
+    },
+    {
+      "type": "picture",
+      "texture": "line_9.png",
+      "x": 150,
+      "y": 510,
+      "visible": false,
+      "name": "line_9"
+    },
+    {
+      "type": "picture",
+      "texture": "1_lines.png",
+      "x": 280,
+      "y": 665,
+      "visible": true,
+      "name": "1_betlines"
+    },
+    {
+      "type": "picture",
+      "texture": "1_lines_active.png",
+      "x": 276,
+      "y": 662,
+      "visible": true,
+      "name": "1_betlines_active"
+    },
+    {
+      "type": "picture",
+      "texture": "3_lines.png",
+      "x": 320,
+      "y": 665,
+      "visible": true,
+      "name": "3_betlines"
+    },
+    {
+      "type": "picture",
+      "texture": "3_lines_active.png",
+      "x": 316,
+      "y": 662,
+      "visible": false,
+      "name": "3_betlines_active"
+    },
+    {
+      "type": "picture",
+      "texture": "5_lines.png",
+      "x": 360,
+      "y": 665,
+      "visible": true,
+      "name": "5_betlines"
+    },
+    {
+      "type": "picture",
+      "texture": "5_lines_active.png",
+      "x": 356,
+      "y": 662,
+      "visible": false,
+      "name": "5_betlines_active"
+    },
+    {
+      "type": "picture",
+      "texture": "7_lines.png",
+      "x": 400,
+      "y": 665,
+      "visible": true,
+      "name": "7_betlines"
+    },
+    {
+      "type": "picture",
+      "texture": "7_lines_active.png",
+      "x": 396,
+      "y": 662,
+      "visible": false,
+      "name": "7_betlines_active"
+    },
+    {
+      "type": "picture",
+      "texture": "9_lines.png",
+      "x": 440,
+      "y": 665,
+      "visible": true,
+      "name": "9_betlines"
+    },
+    {
+      "type": "picture",
+      "texture": "9_lines_active.png",
+      "x": 436,
+      "y": 662,
+      "visible": false,
+      "name": "9_betlines_active"
+    },
+    {
+      "type": "picture",
+      "texture": "spin_numbers.png",
+      "x": 100,
+      "y": 640,
+      "visible": true,
+      "name": "auto_spin_number_plate"
+    },
+    {
+      "type": "label",
+      "fontSize": 26,
+      "fontWeight": "600",
+      "x": 127,
+      "y": 655,
+      "align": "center",
+      "visible": true,
+      "color": "white",
+      "anchorx": 0.5,
+      "text": "1",
+      "name": "lb_auto_spin_number"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "pers_idle_00.png",
+        "pers_idle_01.png",
+        "pers_idle_02.png",
+        "pers_idle_03.png",
+        "pers_idle_04.png",
+        "pers_idle_05.png",
+        "pers_idle_06.png",
+        "pers_idle_07.png",
+        "pers_idle_08.png",
+        "pers_idle_09.png",
+        "pers_idle_10.png",
+        "pers_idle_11.png",
+        "pers_idle_12.png",
+        "pers_idle_13.png",
+        "pers_idle_14.png",
+        "pers_idle_15.png",
+        "pers_idle_16.png",
+        "pers_idle_17.png",
+        "pers_idle_18.png",
+        "pers_idle_19.png",
+        "pers_idle_20.png",
+        "pers_idle_21.png",
+        "pers_idle_22.png",
+        "pers_idle_23.png",
+        "pers_idle_24.png",
+        "pers_idle_25.png",
+        "pers_idle_26.png",
+        "pers_idle_27.png",
+        "pers_idle_28.png",
+        "pers_idle_29.png",
+        "pers_idle_30.png",
+        "pers_idle_31.png",
+        "pers_idle_32.png",
+        "pers_idle_33.png"
+      ],
+      "x": 1039,
+      "y": 155,
+      "animationSpeed": 0.5,
+      "visible": true,
+      "name": "char"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "tablo_01.png",
+        "tablo_02.png"
+      ],
+      "x": 486,
+      "y": 535,
+      "animationSpeed": 0.1,
+      "visible": true,
+      "name": "win_screen"
+    },
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "picture",
+          "texture": "screen.png",
+          "x": 0,
+          "y": 0,
+          "visible": true,
+          "name": "dark_background"
+        },
+        {
+          "type": "picture",
+          "texture": "window.png",
+          "x": 150,
+          "y": 100,
+          "visible": true,
+          "name": "rule_page_background"
+        },
+        {
+          "type": "animation",
+          "frames": [
+            "logo_105.png",
+            "logo_106.png",
+            "logo_107.png",
+            "logo_108.png",
+            "logo_109.png",
+            "logo_110.png",
+            "logo_111.png",
+            "logo_112.png",
+            "logo_113.png",
+            "logo_114.png",
+            "logo_115.png",
+            "logo_116.png",
+            "logo_117.png",
+            "logo_118.png",
+            "logo_119.png",
+            "logo_120.png",
+            "logo_121.png",
+            "logo_122.png",
+            "logo_123.png"
+          ],
+          "x": 489,
+          "y": 25,
+          "animationSpeed": 0.5,
+          "visible": true,
+          "name": "logo"
+        },
+        {
+          "type": "picture",
+          "texture": "icons_value.png",
+          "x": 200,
+          "y": 150,
+          "visible": true,
+          "name": "icons"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 970,
+          "y": 380,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_1_3"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 970,
+          "y": 344,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_1_4"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 970,
+          "y": 308,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_1_5"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 760,
+          "y": 380,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_2_3"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 760,
+          "y": 344,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_2_4"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 760,
+          "y": 308,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_2_5"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 540,
+          "y": 380,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_3_3"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 540,
+          "y": 344,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_3_4"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 540,
+          "y": 308,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_3_5"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 330,
+          "y": 380,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_4_3"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 330,
+          "y": 344,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_4_4"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 330,
+          "y": 308,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_4_5"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 970,
+          "y": 220,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_5_3"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 970,
+          "y": 184,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_5_4"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 970,
+          "y": 148,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_5_5"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 760,
+          "y": 220,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_6_3"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 760,
+          "y": 184,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_6_4"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 760,
+          "y": 148,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_6_5"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 540,
+          "y": 220,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_7_3"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 540,
+          "y": 184,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_7_4"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 540,
+          "y": 148,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_7_5"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 330,
+          "y": 220,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_8_3"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 330,
+          "y": 184,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_8_4"
+        },
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 330,
+          "y": 148,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "1",
+          "name": "lb_paytable_8_5"
+        },
+        {
+          "type": "picture",
+          "texture": "win_lines.png",
+          "x": 350,
+          "y": 460,
+          "visible": true,
+          "name": "win_lines"
+        },
+        {
+          "type": "button",
+          "x": 1060,
+          "y": 70,
+          "visible": true,
+          "normalStateTexture": "close_active.png",
+          "pressedStateTexture": "close.png",
+          "name": "button_close_info"
+        }
+      ],
+      "x": 0,
+      "y": 0,
+      "visible": false,
+      "name": "rules"
+    }
+  ]
+}
