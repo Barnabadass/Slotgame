@@ -83,6 +83,7 @@ export default class ResourceManager {
     if (controlDescr.name.startsWith("reel")) {
       container = new Reel(this.game);
       this.reels.push(<Reel>container);
+      (<Reel>container).reelNumber = this.reels.length;
     } else {
       container = new PIXI.Container();
     }
@@ -147,6 +148,9 @@ export default class ResourceManager {
   assignProps(control: any, controlDescr: any): void {
     control.position.set(controlDescr.x, controlDescr.y);
     control.visible = controlDescr.visible;
+    if (controlDescr.height) {
+      control.height = controlDescr.height;
+    }
     if (controlDescr.scalex) {
       control.scale.x = controlDescr.scalex;
     }

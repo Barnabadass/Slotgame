@@ -59,7 +59,7 @@ var Button = /** @class */ (function (_super) {
         },
         set: function (val) {
             this.isDisabled = val;
-            this.tint = this.isDisabled ? 0xFFFFFF : 0x444444;
+            this.tint = this.isDisabled ? 0x777777 : 0xFFFFFF;
         },
         enumerable: false,
         configurable: true
@@ -67,14 +67,20 @@ var Button = /** @class */ (function (_super) {
     Button.prototype.setEventListeners = function () {
         var _this = this;
         this.on("mouseup", function () {
-            _this.texture = _this.normalStateTexture;
-            _this.game.onButtonClick(_this.controlName);
+            if (!_this.isDisabled) {
+                _this.texture = _this.normalStateTexture;
+                _this.game.onButtonClick(_this.controlName);
+            }
         });
         this.on("mousedown", function () {
-            _this.texture = _this.pressedStateTexture;
+            if (!_this.isDisabled) {
+                _this.texture = _this.pressedStateTexture;
+            }
         });
         this.on("mouseout", function () {
-            _this.texture = _this.normalStateTexture;
+            if (!_this.isDisabled) {
+                _this.texture = _this.normalStateTexture;
+            }
         });
     };
     return Button;

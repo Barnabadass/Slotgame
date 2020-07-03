@@ -2,7 +2,7 @@ import * as PIXI from "pixi.js";
 
 export default class Animation extends PIXI.AnimatedSprite {
   private controlName: string;
-  private symbol: number | undefined;
+  public symbol: number | undefined;
 
   constructor(textures: PIXI.Texture[], name: string) {
     super(textures);

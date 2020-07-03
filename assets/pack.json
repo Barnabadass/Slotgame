@@ -97,6 +97,334 @@
       "name": "s_7"
     },
     {
+      "type": "animation",
+      "frames": [
+        "sym_0_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_0_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_1_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_1_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_2_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_2_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_3_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_3_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_4_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_4_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_5_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_5_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_6_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_6_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_7_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_7_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_0_blurred_01.png",
+        "sym_0_blurred_02.png",
+        "sym_0_blurred_03.png",
+        "sym_0_blurred_04.png",
+        "sym_0_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_0_normal_to_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_1_blurred_01.png",
+        "sym_1_blurred_02.png",
+        "sym_1_blurred_03.png",
+        "sym_1_blurred_04.png",
+        "sym_1_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_1_normal_to_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_2_blurred_01.png",
+        "sym_2_blurred_02.png",
+        "sym_2_blurred_03.png",
+        "sym_2_blurred_04.png",
+        "sym_2_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_2_normal_to_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_3_blurred_01.png",
+        "sym_3_blurred_02.png",
+        "sym_3_blurred_03.png",
+        "sym_3_blurred_04.png",
+        "sym_3_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_3_normal_to_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_4_blurred_01.png",
+        "sym_4_blurred_02.png",
+        "sym_4_blurred_03.png",
+        "sym_4_blurred_04.png",
+        "sym_4_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_4_normal_to_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_5_blurred_01.png",
+        "sym_5_blurred_02.png",
+        "sym_5_blurred_03.png",
+        "sym_5_blurred_04.png",
+        "sym_5_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_5_normal_to_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_6_blurred_01.png",
+        "sym_6_blurred_02.png",
+        "sym_6_blurred_03.png",
+        "sym_6_blurred_04.png",
+        "sym_6_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_6_normal_to_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_7_blurred_01.png",
+        "sym_7_blurred_02.png",
+        "sym_7_blurred_03.png",
+        "sym_7_blurred_04.png",
+        "sym_7_blurred_05.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_7_normal_to_blurred"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_0_blurred_05.png",
+        "sym_0_blurred_04.png",
+        "sym_0_blurred_03.png",
+        "sym_0_blurred_02.png",
+        "sym_0_blurred_01.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_0_blurred_to_normal"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_1_blurred_05.png",
+        "sym_1_blurred_04.png",
+        "sym_1_blurred_03.png",
+        "sym_1_blurred_02.png",
+        "sym_1_blurred_01.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_1_blurred_to_normal"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_2_blurred_05.png",
+        "sym_2_blurred_04.png",
+        "sym_2_blurred_03.png",
+        "sym_2_blurred_02.png",
+        "sym_2_blurred_01.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_2_blurred_to_normal"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_3_blurred_05.png",
+        "sym_3_blurred_04.png",
+        "sym_3_blurred_03.png",
+        "sym_3_blurred_02.png",
+        "sym_3_blurred_01.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_3_blurred_to_normal"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_4_blurred_05.png",
+        "sym_4_blurred_04.png",
+        "sym_4_blurred_03.png",
+        "sym_4_blurred_02.png",
+        "sym_4_blurred_01.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_4_blurred_to_normal"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_5_blurred_05.png",
+        "sym_5_blurred_04.png",
+        "sym_5_blurred_03.png",
+        "sym_5_blurred_02.png",
+        "sym_5_blurred_01.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_5_blurred_to_normal"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_6_blurred_05.png",
+        "sym_6_blurred_04.png",
+        "sym_6_blurred_03.png",
+        "sym_6_blurred_02.png",
+        "sym_6_blurred_01.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_6_blurred_to_normal"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "sym_7_blurred_05.png",
+        "sym_7_blurred_04.png",
+        "sym_7_blurred_03.png",
+        "sym_7_blurred_02.png",
+        "sym_7_blurred_01.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "s_7_blurred_to_normal"
+    },
+    {
       "type": "container",
       "children": [
         {
@@ -154,6 +482,7 @@
       ],
       "x": 250,
       "y": 163,
+      "height": 453,
       "visible": true,
       "name": "reel_1"
     },
@@ -215,6 +544,7 @@
       ],
       "x": 408,
       "y": 163,
+      "height": 453,
       "visible": true,
       "name": "reel_2"
     },
@@ -276,6 +606,7 @@
       ],
       "x": 566,
       "y": 163,
+      "height": 453,
       "visible": true,
       "name": "reel_3"
     },
@@ -337,6 +668,7 @@
       ],
       "x": 724,
       "y": 163,
+      "height": 453,
       "visible": true,
       "name": "reel_4"
     },
@@ -398,13 +730,374 @@
       ],
       "x": 882,
       "y": 163,
+      "height": 453,
       "visible": true,
       "name": "reel_5"
     },
     {
+      "type": "animation",
+      "frames": [
+        "win_effect_87.png",
+        "win_effect_88.png",
+        "win_effect_89.png",
+        "win_effect_90.png",
+        "win_effect_91.png",
+        "win_effect_92.png",
+        "win_effect_93.png",
+        "win_effect_94.png",
+        "win_effect_95.png",
+        "win_effect_96.png",
+        "win_effect_97.png",
+        "win_effect_98.png",
+        "win_effect_99.png",
+        "win_effect_100.png",
+        "win_effect_101.png",
+        "win_effect_102.png",
+        "win_effect_103.png",
+        "win_effect_104.png",
+        "win_effect_105.png",
+        "win_effect_106.png",
+        "win_effect_107.png",
+        "win_effect_108.png",
+        "win_effect_109.png",
+        "win_effect_110.png",
+        "win_effect_111.png",
+        "win_effect_112.png",
+        "win_effect_113.png",
+        "win_effect_114.png",
+        "win_effect_115.png",
+        "win_effect_116.png",
+        "win_effect_117.png",
+        "win_effect_118.png",
+        "win_effect_119.png",
+        "win_effect_120.png",
+        "win_effect_121.png",
+        "win_effect_122.png",
+        "win_effect_123.png",
+        "win_effect_124.png",
+        "win_effect_125.png",
+        "win_effect_126.png",
+        "win_effect_127.png",
+        "win_effect_128.png",
+        "win_effect_129.png",
+        "win_effect_130.png",
+        "win_effect_131.png",
+        "win_effect_132.png",
+        "win_effect_133.png",
+        "win_effect_134.png",
+        "win_effect_135.png",
+        "win_effect_136.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "win_effect_1"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "win_effect_87.png",
+        "win_effect_88.png",
+        "win_effect_89.png",
+        "win_effect_90.png",
+        "win_effect_91.png",
+        "win_effect_92.png",
+        "win_effect_93.png",
+        "win_effect_94.png",
+        "win_effect_95.png",
+        "win_effect_96.png",
+        "win_effect_97.png",
+        "win_effect_98.png",
+        "win_effect_99.png",
+        "win_effect_100.png",
+        "win_effect_101.png",
+        "win_effect_102.png",
+        "win_effect_103.png",
+        "win_effect_104.png",
+        "win_effect_105.png",
+        "win_effect_106.png",
+        "win_effect_107.png",
+        "win_effect_108.png",
+        "win_effect_109.png",
+        "win_effect_110.png",
+        "win_effect_111.png",
+        "win_effect_112.png",
+        "win_effect_113.png",
+        "win_effect_114.png",
+        "win_effect_115.png",
+        "win_effect_116.png",
+        "win_effect_117.png",
+        "win_effect_118.png",
+        "win_effect_119.png",
+        "win_effect_120.png",
+        "win_effect_121.png",
+        "win_effect_122.png",
+        "win_effect_123.png",
+        "win_effect_124.png",
+        "win_effect_125.png",
+        "win_effect_126.png",
+        "win_effect_127.png",
+        "win_effect_128.png",
+        "win_effect_129.png",
+        "win_effect_130.png",
+        "win_effect_131.png",
+        "win_effect_132.png",
+        "win_effect_133.png",
+        "win_effect_134.png",
+        "win_effect_135.png",
+        "win_effect_136.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "win_effect_2"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "win_effect_87.png",
+        "win_effect_88.png",
+        "win_effect_89.png",
+        "win_effect_90.png",
+        "win_effect_91.png",
+        "win_effect_92.png",
+        "win_effect_93.png",
+        "win_effect_94.png",
+        "win_effect_95.png",
+        "win_effect_96.png",
+        "win_effect_97.png",
+        "win_effect_98.png",
+        "win_effect_99.png",
+        "win_effect_100.png",
+        "win_effect_101.png",
+        "win_effect_102.png",
+        "win_effect_103.png",
+        "win_effect_104.png",
+        "win_effect_105.png",
+        "win_effect_106.png",
+        "win_effect_107.png",
+        "win_effect_108.png",
+        "win_effect_109.png",
+        "win_effect_110.png",
+        "win_effect_111.png",
+        "win_effect_112.png",
+        "win_effect_113.png",
+        "win_effect_114.png",
+        "win_effect_115.png",
+        "win_effect_116.png",
+        "win_effect_117.png",
+        "win_effect_118.png",
+        "win_effect_119.png",
+        "win_effect_120.png",
+        "win_effect_121.png",
+        "win_effect_122.png",
+        "win_effect_123.png",
+        "win_effect_124.png",
+        "win_effect_125.png",
+        "win_effect_126.png",
+        "win_effect_127.png",
+        "win_effect_128.png",
+        "win_effect_129.png",
+        "win_effect_130.png",
+        "win_effect_131.png",
+        "win_effect_132.png",
+        "win_effect_133.png",
+        "win_effect_134.png",
+        "win_effect_135.png",
+        "win_effect_136.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "win_effect_3"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "win_effect_87.png",
+        "win_effect_88.png",
+        "win_effect_89.png",
+        "win_effect_90.png",
+        "win_effect_91.png",
+        "win_effect_92.png",
+        "win_effect_93.png",
+        "win_effect_94.png",
+        "win_effect_95.png",
+        "win_effect_96.png",
+        "win_effect_97.png",
+        "win_effect_98.png",
+        "win_effect_99.png",
+        "win_effect_100.png",
+        "win_effect_101.png",
+        "win_effect_102.png",
+        "win_effect_103.png",
+        "win_effect_104.png",
+        "win_effect_105.png",
+        "win_effect_106.png",
+        "win_effect_107.png",
+        "win_effect_108.png",
+        "win_effect_109.png",
+        "win_effect_110.png",
+        "win_effect_111.png",
+        "win_effect_112.png",
+        "win_effect_113.png",
+        "win_effect_114.png",
+        "win_effect_115.png",
+        "win_effect_116.png",
+        "win_effect_117.png",
+        "win_effect_118.png",
+        "win_effect_119.png",
+        "win_effect_120.png",
+        "win_effect_121.png",
+        "win_effect_122.png",
+        "win_effect_123.png",
+        "win_effect_124.png",
+        "win_effect_125.png",
+        "win_effect_126.png",
+        "win_effect_127.png",
+        "win_effect_128.png",
+        "win_effect_129.png",
+        "win_effect_130.png",
+        "win_effect_131.png",
+        "win_effect_132.png",
+        "win_effect_133.png",
+        "win_effect_134.png",
+        "win_effect_135.png",
+        "win_effect_136.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "win_effect_4"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "win_effect_87.png",
+        "win_effect_88.png",
+        "win_effect_89.png",
+        "win_effect_90.png",
+        "win_effect_91.png",
+        "win_effect_92.png",
+        "win_effect_93.png",
+        "win_effect_94.png",
+        "win_effect_95.png",
+        "win_effect_96.png",
+        "win_effect_97.png",
+        "win_effect_98.png",
+        "win_effect_99.png",
+        "win_effect_100.png",
+        "win_effect_101.png",
+        "win_effect_102.png",
+        "win_effect_103.png",
+        "win_effect_104.png",
+        "win_effect_105.png",
+        "win_effect_106.png",
+        "win_effect_107.png",
+        "win_effect_108.png",
+        "win_effect_109.png",
+        "win_effect_110.png",
+        "win_effect_111.png",
+        "win_effect_112.png",
+        "win_effect_113.png",
+        "win_effect_114.png",
+        "win_effect_115.png",
+        "win_effect_116.png",
+        "win_effect_117.png",
+        "win_effect_118.png",
+        "win_effect_119.png",
+        "win_effect_120.png",
+        "win_effect_121.png",
+        "win_effect_122.png",
+        "win_effect_123.png",
+        "win_effect_124.png",
+        "win_effect_125.png",
+        "win_effect_126.png",
+        "win_effect_127.png",
+        "win_effect_128.png",
+        "win_effect_129.png",
+        "win_effect_130.png",
+        "win_effect_131.png",
+        "win_effect_132.png",
+        "win_effect_133.png",
+        "win_effect_134.png",
+        "win_effect_135.png",
+        "win_effect_136.png"
+      ],
+      "x": 72,
+      "y": 302,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "animationSpeed": 0.5,
+      "visible": false,
+      "name": "win_effect_5"
+    },
+    {
+      "type": "picture",
+      "texture": "frame.png",
+      "x": 275,
+      "y": 600,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "visible": false,
+      "name": "win_frame_1"
+    },
+    {
+      "type": "picture",
+      "texture": "frame.png",
+      "x": 275,
+      "y": 600,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "visible": false,
+      "name": "win_frame_2"
+    },
+    {
+      "type": "picture",
+      "texture": "frame.png",
+      "x": 275,
+      "y": 600,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "visible": false,
+      "name": "win_frame_3"
+    },
+    {
+      "type": "picture",
+      "texture": "frame.png",
+      "x": 275,
+      "y": 600,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "visible": false,
+      "name": "win_frame_4"
+    },
+    {
+      "type": "picture",
+      "texture": "frame.png",
+      "x": 275,
+      "y": 600,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "visible": false,
+      "name": "win_frame_5"
+    },
+    {
       "type": "picture",
       "texture": "b2.png",
-      "x": 275,
+      "x": 277,
       "y": 600,
       "visible": true,
       "name": "bet_field"
@@ -412,7 +1105,7 @@
     {
       "type": "picture",
       "texture": "b1.png",
-      "x": 265,
+      "x": 267,
       "y": 600,
       "visible": true,
       "name": "bet_field_frame_left"
@@ -420,7 +1113,7 @@
     {
       "type": "picture",
       "texture": "b1.png",
-      "x": 465,
+      "x": 467,
       "y": 600,
       "scalex": -1,
       "visible": true,
@@ -605,6 +1298,78 @@
       "normalStateTexture": "auto_spin_active.png",
       "pressedStateTexture": "auto_spin.png",
       "name": "button_auto_spin"
+    },
+    {
+      "type": "picture",
+      "texture": "line_1.png",
+      "x": 154,
+      "y": 110,
+      "visible": false,
+      "name": "payline_1"
+    },
+    {
+      "type": "picture",
+      "texture": "line_2.png",
+      "x": 154,
+      "y": 160,
+      "visible": false,
+      "name": "payline_2"
+    },
+    {
+      "type": "picture",
+      "texture": "line_3.png",
+      "x": 154,
+      "y": 210,
+      "visible": false,
+      "name": "payline_3"
+    },
+    {
+      "type": "picture",
+      "texture": "line_4.png",
+      "x": 154,
+      "y": 140,
+      "visible": false,
+      "name": "payline_4"
+    },
+    {
+      "type": "picture",
+      "texture": "line_5.png",
+      "x": 154,
+      "y": 310,
+      "visible": false,
+      "name": "payline_5"
+    },
+    {
+      "type": "picture",
+      "texture": "line_6.png",
+      "x": 154,
+      "y": 360,
+      "visible": false,
+      "name": "payline_6"
+    },
+    {
+      "type": "picture",
+      "texture": "line_7.png",
+      "x": 154,
+      "y": 120,
+      "visible": false,
+      "name": "payline_7"
+    },
+    {
+      "type": "picture",
+      "texture": "line_8.png",
+      "x": 154,
+      "y": 295,
+      "visible": false,
+      "name": "payline_8"
+    },
+    {
+      "type": "picture",
+      "texture": "line_9.png",
+      "x": 154,
+      "y": 510,
+      "visible": false,
+      "name": "payline_9"
     },
     {
       "type": "picture",
@@ -896,78 +1661,6 @@
     },
     {
       "type": "picture",
-      "texture": "line_1.png",
-      "x": 150,
-      "y": 110,
-      "visible": false,
-      "name": "line_1"
-    },
-    {
-      "type": "picture",
-      "texture": "line_2.png",
-      "x": 150,
-      "y": 160,
-      "visible": false,
-      "name": "line_2"
-    },
-    {
-      "type": "picture",
-      "texture": "line_3.png",
-      "x": 150,
-      "y": 210,
-      "visible": false,
-      "name": "line_3"
-    },
-    {
-      "type": "picture",
-      "texture": "line_4.png",
-      "x": 150,
-      "y": 140,
-      "visible": false,
-      "name": "line_4"
-    },
-    {
-      "type": "picture",
-      "texture": "line_5.png",
-      "x": 150,
-      "y": 310,
-      "visible": false,
-      "name": "line_5"
-    },
-    {
-      "type": "picture",
-      "texture": "line_6.png",
-      "x": 150,
-      "y": 360,
-      "visible": false,
-      "name": "line_6"
-    },
-    {
-      "type": "picture",
-      "texture": "line_7.png",
-      "x": 150,
-      "y": 120,
-      "visible": false,
-      "name": "line_7"
-    },
-    {
-      "type": "picture",
-      "texture": "line_8.png",
-      "x": 150,
-      "y": 295,
-      "visible": false,
-      "name": "line_8"
-    },
-    {
-      "type": "picture",
-      "texture": "line_9.png",
-      "x": 150,
-      "y": 510,
-      "visible": false,
-      "name": "line_9"
-    },
-    {
-      "type": "picture",
       "texture": "1_lines.png",
       "x": 280,
       "y": 665,
@@ -1122,6 +1815,39 @@
       "animationSpeed": 0.1,
       "visible": true,
       "name": "win_screen"
+    },
+    {
+      "type": "container",
+      "children": [
+        {
+          "type": "label",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "x": 20,
+          "y": 10,
+          "align": "left",
+          "visible": true,
+          "color": "white",
+          "text": "WIN:",
+          "name": "lb_paytable_1_3"
+        },
+        {
+          "type": "label",
+          "fontSize": 34,
+          "fontWeight": "600",
+          "x": 100,
+          "y": 10,
+          "align": "left",
+          "visible": true,
+          "color": "yellow",
+          "text": "1",
+          "name": "lb_win"
+        }
+      ],
+      "x": 540,
+      "y": 560,
+      "visible": false,
+      "name": "win_labels_container"
     },
     {
       "type": "container",

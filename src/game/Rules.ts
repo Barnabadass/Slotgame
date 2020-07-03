@@ -21,7 +21,7 @@ export default class Rules {
   setLabelCaptions(): void {
     for (let sym in this.paytable) {
       for (let numSyms in this.paytable[sym]) {
-        (<PIXI.Text>this.game.getControl(`lb_paytable_${sym}_${numSyms}`)).text = `${this.paytable[sym][numSyms] * this.game.clientInfo.bet}`;
+        this.game.setLabelCaption(`lb_paytable_${sym}_${numSyms}`, `${this.paytable[sym][numSyms] * this.game.clientInfo.bet}`);
       }
     }
   }

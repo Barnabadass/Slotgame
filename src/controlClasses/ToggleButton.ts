@@ -9,13 +9,15 @@ export default class ToggleButton extends Button {
 
   set pressed(pressed: boolean) {
     this.isPressed = pressed;
+    this.texture = this.pressed ? this.pressedStateTexture : this.normalStateTexture;
   }
 
   setEventListeners(): void {
     this.on("mousedown", () => {
-      this.pressed = !this.pressed;
-      this.texture = this.pressed ? this.pressedStateTexture! : this.normalStateTexture!;
-      this.game.onButtonClick(this.controlName);
+      if (!this.isDisabled) {
+        this.pressed = !this.pressed;
+        this.game.onButtonClick(this.controlName);
+      }
     });
   }
 } 

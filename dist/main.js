@@ -143,6 +143,7 @@ var ResourceManager = /** @class */ (function () {
         if (controlDescr.name.startsWith("reel")) {
             container = new Reel_1.default(this.game);
             this.reels.push(container);
+            container.reelNumber = this.reels.length;
         }
         else {
             container = new PIXI.Container();
@@ -204,6 +205,9 @@ var ResourceManager = /** @class */ (function () {
     ResourceManager.prototype.assignProps = function (control, controlDescr) {
         control.position.set(controlDescr.x, controlDescr.y);
         control.visible = controlDescr.visible;
+        if (controlDescr.height) {
+            control.height = controlDescr.height;
+        }
         if (controlDescr.scalex) {
             control.scale.x = controlDescr.scalex;
         }

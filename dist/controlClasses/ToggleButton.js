@@ -30,6 +30,7 @@ var ToggleButton = /** @class */ (function (_super) {
         },
         set: function (pressed) {
             this.isPressed = pressed;
+            this.texture = this.pressed ? this.pressedStateTexture : this.normalStateTexture;
         },
         enumerable: false,
         configurable: true
@@ -37,9 +38,10 @@ var ToggleButton = /** @class */ (function (_super) {
     ToggleButton.prototype.setEventListeners = function () {
         var _this = this;
         this.on("mousedown", function () {
-            _this.pressed = !_this.pressed;
-            _this.texture = _this.pressed ? _this.pressedStateTexture : _this.normalStateTexture;
-            _this.game.onButtonClick(_this.controlName);
+            if (!_this.isDisabled) {
+                _this.pressed = !_this.pressed;
+                _this.game.onButtonClick(_this.controlName);
+            }
         });
     };
     return ToggleButton;

@@ -24,7 +24,7 @@ export default class Button extends PIXI.Sprite {
 
   set disabled(val: boolean) {
     this.isDisabled = val;
-    this.tint = this.isDisabled ? 0xFFFFFF : 0x444444;
+    this.tint = this.isDisabled ? 0x777777 : 0xFFFFFF;
   }
 
   get disabled(): boolean {
@@ -33,14 +33,20 @@ export default class Button extends PIXI.Sprite {
 
   setEventListeners(): void {
     this.on("mouseup", () => {
-      this.texture = this.normalStateTexture!;
-      this.game.onButtonClick(this.controlName);
+      if (!this.isDisabled) {
+        this.texture = this.normalStateTexture;
+        this.game.onButtonClick(this.controlName);
+      }
     });
     this.on("mousedown", () => {
-      this.texture = this.pressedStateTexture!;
+      if (!this.isDisabled) {
+        this.texture = this.pressedStateTexture;
+      }
     });
     this.on("mouseout", () => {
-      this.texture = this.normalStateTexture!;
+      if (!this.isDisabled) {
+        this.texture = this.normalStateTexture;
+      }
     });
   }
 }
