@@ -433,7 +433,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": -151,
+          "y": 0,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -446,7 +446,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 0,
+          "y": 151,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -459,7 +459,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 151,
+          "y": 302,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -472,7 +472,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 302,
+          "y": 453,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -481,7 +481,7 @@
         }
       ],
       "x": 250,
-      "y": 163,
+      "y": 12,
       "height": 453,
       "visible": true,
       "name": "reel_1"
@@ -495,7 +495,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": -151,
+          "y": 0,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -508,7 +508,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 0,
+          "y": 151,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -521,7 +521,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 151,
+          "y": 302,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -534,7 +534,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 302,
+          "y": 453,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -543,7 +543,7 @@
         }
       ],
       "x": 408,
-      "y": 163,
+      "y": 12,
       "height": 453,
       "visible": true,
       "name": "reel_2"
@@ -557,7 +557,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": -151,
+          "y": 0,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -570,7 +570,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 0,
+          "y": 151,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -583,7 +583,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 151,
+          "y": 302,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -596,7 +596,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 302,
+          "y": 453,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -605,7 +605,7 @@
         }
       ],
       "x": 566,
-      "y": 163,
+      "y": 12,
       "height": 453,
       "visible": true,
       "name": "reel_3"
@@ -619,7 +619,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": -151,
+          "y": 0,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -632,7 +632,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 0,
+          "y": 151,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -645,7 +645,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 151,
+          "y": 302,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -658,7 +658,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 302,
+          "y": 453,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -667,7 +667,7 @@
         }
       ],
       "x": 724,
-      "y": 163,
+      "y": 12,
       "height": 453,
       "visible": true,
       "name": "reel_4"
@@ -681,7 +681,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": -151,
+          "y": 0,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -694,7 +694,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 0,
+          "y": 151,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -707,7 +707,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 151,
+          "y": 302,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -720,7 +720,7 @@
             "sym_0.png"
           ],
           "x": 72,
-          "y": 302,
+          "y": 453,
           "anchorx": 0.5,
           "anchory": 0.5,
           "animationSpeed": 0.5,
@@ -729,7 +729,7 @@
         }
       ],
       "x": 882,
-      "y": 163,
+      "y": 12,
       "height": 453,
       "visible": true,
       "name": "reel_5"
@@ -1121,26 +1121,30 @@
     },
     {
       "type": "label",
-      "fontSize": 20,
-      "fontWeight": "600",
+      "style": {
+        "fontSize": 20,
+        "fontWeight": "600",
+        "align": "center",
+        "fill": "lightyellow"
+      },
       "x": 320,
       "y": 575,
-      "align": "center",
       "visible": true,
-      "color": "lightyellow",
       "text": "LINE BET",
       "name": "lb_bet_text"
     },
     {
       "type": "label",
-      "fontSize": 20,
-      "fontWeight": "600",
+      "style": {
+        "fontSize": 20,
+        "fontWeight": "600",
+        "align": "center",
+        "fill": "white"
+      },
       "x": 364,
       "y": 602,
-      "align": "center",
       "anchorx": 0.5,
       "visible": true,
-      "color": "white",
       "text": "1",
       "name": "lb_bet"
     },
@@ -1171,26 +1175,30 @@
     },
     {
       "type": "label",
-      "fontSize": 20,
-      "fontWeight": "600",
+      "style": {
+        "fontSize": 20,
+        "fontWeight": "600",
+        "align": "center",
+        "fill": "lightyellow"
+      },
       "x": 578,
       "y": 645,
-      "align": "center",
       "visible": true,
-      "color": "lightyellow",
       "text": "TOTAL BET",
       "name": "lb_total_bet_text"
     },
     {
       "type": "label",
-      "fontSize": 20,
-      "fontWeight": "600",
+      "style": {
+        "fontSize": 20,
+        "fontWeight": "600",
+        "align": "center",
+        "fill": "white"
+      },
       "x": 631,
       "y": 672,
-      "align": "center",
       "anchorx": 0.5,
       "visible": true,
-      "color": "white",
       "text": "1",
       "name": "lb_total_bet"
     },
@@ -1221,26 +1229,30 @@
     },
     {
       "type": "label",
-      "fontSize": 20,
-      "fontWeight": "600",
+      "style": {
+        "fontSize": 20,
+        "fontWeight": "600",
+        "align": "center",
+        "fill": "lightyellow"
+      },
       "x": 860,
       "y": 575,
-      "align": "center",
       "visible": true,
-      "color": "lightyellow",
       "text": "BALANCE",
       "name": "lb_balance_text"
     },
     {
       "type": "label",
-      "fontSize": 20,
-      "fontWeight": "600",
+      "style": {
+        "fontSize": 20,
+        "fontWeight": "600",
+        "align": "center",
+        "fill": "white"
+      },
       "x": 912,
       "y": 602,
-      "align": "center",
       "anchorx": 0.5,
       "visible": true,
-      "color": "white",
       "text": "1",
       "name": "lb_balance"
     },
@@ -1298,6 +1310,15 @@
       "normalStateTexture": "auto_spin_active.png",
       "pressedStateTexture": "auto_spin.png",
       "name": "button_auto_spin"
+    },
+    {
+      "type": "button",
+      "x": 1212,
+      "y": 0,
+      "visible": false,
+      "normalStateTexture": "close_active.png",
+      "pressedStateTexture": "close.png",
+      "name": "button_close"
     },
     {
       "type": "picture",
@@ -1377,7 +1398,7 @@
       "x": 100,
       "y": 90,
       "visible": true,
-      "name": "1_line_pin_inactive_left"
+      "name": "1_line_indicator_inactive_left"
     },
     {
       "type": "picture",
@@ -1385,7 +1406,7 @@
       "x": 100,
       "y": 90,
       "visible": true,
-      "name": "1_line_pin_active_left"
+      "name": "1_line_indicator_active_left"
     },
     {
       "type": "picture",
@@ -1393,7 +1414,7 @@
       "x": 100,
       "y": 140,
       "visible": true,
-      "name": "2_line_pin_inactive_left"
+      "name": "2_line_indicator_inactive_left"
     },
     {
       "type": "picture",
@@ -1401,7 +1422,7 @@
       "x": 100,
       "y": 140,
       "visible": true,
-      "name": "2_line_pin_active_left"
+      "name": "2_line_indicator_active_left"
     },
     {
       "type": "picture",
@@ -1409,7 +1430,7 @@
       "x": 100,
       "y": 190,
       "visible": true,
-      "name": "3_line_pin_inactive_left"
+      "name": "3_line_indicator_inactive_left"
     },
     {
       "type": "picture",
@@ -1417,7 +1438,7 @@
       "x": 100,
       "y": 190,
       "visible": true,
-      "name": "3_line_pin_active_left"
+      "name": "3_line_indicator_active_left"
     },
     {
       "type": "picture",
@@ -1425,7 +1446,7 @@
       "x": 100,
       "y": 240,
       "visible": true,
-      "name": "4_line_pin_inactive_left"
+      "name": "4_line_indicator_inactive_left"
     },
     {
       "type": "picture",
@@ -1433,7 +1454,7 @@
       "x": 100,
       "y": 240,
       "visible": true,
-      "name": "4_line_pin_active_left"
+      "name": "4_line_indicator_active_left"
     },
     {
       "type": "picture",
@@ -1441,7 +1462,7 @@
       "x": 100,
       "y": 290,
       "visible": true,
-      "name": "5_line_pin_inactive_left"
+      "name": "5_line_indicator_inactive_left"
     },
     {
       "type": "picture",
@@ -1449,7 +1470,7 @@
       "x": 100,
       "y": 290,
       "visible": true,
-      "name": "5_line_pin_active_left"
+      "name": "5_line_indicator_active_left"
     },
     {
       "type": "picture",
@@ -1457,7 +1478,7 @@
       "x": 100,
       "y": 340,
       "visible": true,
-      "name": "6_line_pin_inactive_left"
+      "name": "6_line_indicator_inactive_left"
     },
     {
       "type": "picture",
@@ -1465,7 +1486,7 @@
       "x": 100,
       "y": 340,
       "visible": true,
-      "name": "6_line_pin_active_left"
+      "name": "6_line_indicator_active_left"
     },
     {
       "type": "picture",
@@ -1473,7 +1494,7 @@
       "x": 100,
       "y": 390,
       "visible": true,
-      "name": "7_line_pin_inactive_left"
+      "name": "7_line_indicator_inactive_left"
     },
     {
       "type": "picture",
@@ -1481,7 +1502,7 @@
       "x": 100,
       "y": 390,
       "visible": true,
-      "name": "7_line_pin_active_left"
+      "name": "7_line_indicator_active_left"
     },
     {
       "type": "picture",
@@ -1489,7 +1510,7 @@
       "x": 100,
       "y": 440,
       "visible": true,
-      "name": "8_line_pin_inactive_left"
+      "name": "8_line_indicator_inactive_left"
     },
     {
       "type": "picture",
@@ -1497,7 +1518,7 @@
       "x": 100,
       "y": 440,
       "visible": true,
-      "name": "8_line_pin_active_left"
+      "name": "8_line_indicator_active_left"
     },
     {
       "type": "picture",
@@ -1505,7 +1526,7 @@
       "x": 100,
       "y": 490,
       "visible": true,
-      "name": "9_line_pin_inactive_left"
+      "name": "9_line_indicator_inactive_left"
     },
     {
       "type": "picture",
@@ -1513,7 +1534,7 @@
       "x": 100,
       "y": 490,
       "visible": true,
-      "name": "9_line_pin_active_left"
+      "name": "9_line_indicator_active_left"
     },
     {
       "type": "picture",
@@ -1521,7 +1542,7 @@
       "x": 1090,
       "y": 90,
       "visible": true,
-      "name": "1_line_pin_inactive_right"
+      "name": "1_line_indicator_inactive_right"
     },
     {
       "type": "picture",
@@ -1529,7 +1550,7 @@
       "x": 1090,
       "y": 90,
       "visible": true,
-      "name": "1_line_pin_active_right"
+      "name": "1_line_indicator_active_right"
     },
     {
       "type": "picture",
@@ -1537,7 +1558,7 @@
       "x": 1090,
       "y": 140,
       "visible": true,
-      "name": "2_line_pin_inactive_right"
+      "name": "2_line_indicator_inactive_right"
     },
     {
       "type": "picture",
@@ -1545,7 +1566,7 @@
       "x": 1090,
       "y": 140,
       "visible": true,
-      "name": "2_line_pin_active_right"
+      "name": "2_line_indicator_active_right"
     },
     {
       "type": "picture",
@@ -1553,7 +1574,7 @@
       "x": 1090,
       "y": 190,
       "visible": true,
-      "name": "3_line_pin_inactive_right"
+      "name": "3_line_indicator_inactive_right"
     },
     {
       "type": "picture",
@@ -1561,7 +1582,7 @@
       "x": 1090,
       "y": 190,
       "visible": true,
-      "name": "3_line_pin_active_right"
+      "name": "3_line_indicator_active_right"
     },
     {
       "type": "picture",
@@ -1569,7 +1590,7 @@
       "x": 1090,
       "y": 240,
       "visible": true,
-      "name": "4_line_pin_inactive_right"
+      "name": "4_line_indicator_inactive_right"
     },
     {
       "type": "picture",
@@ -1577,7 +1598,7 @@
       "x": 1090,
       "y": 240,
       "visible": true,
-      "name": "4_line_pin_active_right"
+      "name": "4_line_indicator_active_right"
     },
     {
       "type": "picture",
@@ -1585,7 +1606,7 @@
       "x": 1090,
       "y": 290,
       "visible": true,
-      "name": "5_line_pin_inactive_right"
+      "name": "5_line_indicator_inactive_right"
     },
     {
       "type": "picture",
@@ -1593,7 +1614,7 @@
       "x": 1090,
       "y": 290,
       "visible": true,
-      "name": "5_line_pin_active_right"
+      "name": "5_line_indicator_active_right"
     },
     {
       "type": "picture",
@@ -1601,7 +1622,7 @@
       "x": 1090,
       "y": 340,
       "visible": true,
-      "name": "6_line_pin_inactive_right"
+      "name": "6_line_indicator_inactive_right"
     },
     {
       "type": "picture",
@@ -1609,7 +1630,7 @@
       "x": 1090,
       "y": 340,
       "visible": true,
-      "name": "6_line_pin_active_right"
+      "name": "6_line_indicator_active_right"
     },
     {
       "type": "picture",
@@ -1617,7 +1638,7 @@
       "x": 1090,
       "y": 390,
       "visible": true,
-      "name": "7_line_pin_inactive_right"
+      "name": "7_line_indicator_inactive_right"
     },
     {
       "type": "picture",
@@ -1625,7 +1646,7 @@
       "x": 1090,
       "y": 390,
       "visible": true,
-      "name": "7_line_pin_active_right"
+      "name": "7_line_indicator_active_right"
     },
     {
       "type": "picture",
@@ -1633,7 +1654,7 @@
       "x": 1090,
       "y": 440,
       "visible": true,
-      "name": "8_line_pin_inactive_right"
+      "name": "8_line_indicator_inactive_right"
     },
     {
       "type": "picture",
@@ -1641,7 +1662,7 @@
       "x": 1090,
       "y": 440,
       "visible": true,
-      "name": "8_line_pin_active_right"
+      "name": "8_line_indicator_active_right"
     },
     {
       "type": "picture",
@@ -1649,7 +1670,7 @@
       "x": 1090,
       "y": 490,
       "visible": true,
-      "name": "9_line_pin_inactive_right"
+      "name": "9_line_indicator_inactive_right"
     },
     {
       "type": "picture",
@@ -1657,7 +1678,7 @@
       "x": 1090,
       "y": 490,
       "visible": true,
-      "name": "9_line_pin_active_right"
+      "name": "9_line_indicator_active_right"
     },
     {
       "type": "picture",
@@ -1749,13 +1770,15 @@
     },
     {
       "type": "label",
-      "fontSize": 26,
-      "fontWeight": "600",
+      "style": {
+        "fontSize": 26,
+        "fontWeight": "600",
+        "align": "center",
+        "fill": "white"
+      },
       "x": 127,
       "y": 655,
-      "align": "center",
       "visible": true,
-      "color": "white",
       "anchorx": 0.5,
       "text": "1",
       "name": "lb_auto_spin_number"
@@ -1807,6 +1830,27 @@
     {
       "type": "animation",
       "frames": [
+        "fire_00.png",
+        "fire_01.png",
+        "fire_02.png",
+        "fire_03.png",
+        "fire_04.png",
+        "fire_05.png",
+        "fire_06.png",
+        "fire_07.png",
+        "fire_08.png",
+        "fire_09.png",
+        "fire_10.png"
+      ],
+      "x": 139,
+      "y": 455,
+      "animationSpeed": 0.5,
+      "visible": true,
+      "name": "fire"
+    },
+    {
+      "type": "animation",
+      "frames": [
         "tablo_01.png",
         "tablo_02.png"
       ],
@@ -1821,25 +1865,29 @@
       "children": [
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 20,
           "y": 10,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "WIN:",
           "name": "lb_paytable_1_3"
         },
         {
           "type": "label",
-          "fontSize": 34,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 34,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "yellow"
+          },
           "x": 100,
           "y": 10,
-          "align": "left",
           "visible": true,
-          "color": "yellow",
           "text": "1",
           "name": "lb_win"
         }
@@ -1848,6 +1896,35 @@
       "y": 560,
       "visible": false,
       "name": "win_labels_container"
+    },
+    {
+      "type": "animation",
+      "frames": [
+        "logo_105.png",
+        "logo_106.png",
+        "logo_107.png",
+        "logo_108.png",
+        "logo_109.png",
+        "logo_110.png",
+        "logo_111.png",
+        "logo_112.png",
+        "logo_113.png",
+        "logo_114.png",
+        "logo_115.png",
+        "logo_116.png",
+        "logo_117.png",
+        "logo_118.png",
+        "logo_119.png",
+        "logo_120.png",
+        "logo_121.png",
+        "logo_122.png",
+        "logo_123.png"
+      ],
+      "x": 489,
+      "y": 0,
+      "animationSpeed": 0.3,
+      "visible": true,
+      "name": "logo"
     },
     {
       "type": "container",
@@ -1895,7 +1972,7 @@
           "y": 25,
           "animationSpeed": 0.5,
           "visible": true,
-          "name": "logo"
+          "name": "logo_rules"
         },
         {
           "type": "picture",
@@ -1907,289 +1984,337 @@
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 970,
           "y": 380,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_1_3"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 970,
           "y": 344,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_1_4"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 970,
           "y": 308,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_1_5"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 760,
           "y": 380,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_2_3"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 760,
           "y": 344,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_2_4"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 760,
           "y": 308,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_2_5"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 540,
           "y": 380,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_3_3"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 540,
           "y": 344,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_3_4"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 540,
           "y": 308,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_3_5"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 330,
           "y": 380,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_4_3"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 330,
           "y": 344,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_4_4"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 330,
           "y": 308,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_4_5"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 970,
           "y": 220,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_5_3"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 970,
           "y": 184,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_5_4"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 970,
           "y": 148,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_5_5"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 760,
           "y": 220,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_6_3"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 760,
           "y": 184,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_6_4"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 760,
           "y": 148,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_6_5"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 540,
           "y": 220,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_7_3"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 540,
           "y": 184,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_7_4"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 540,
           "y": 148,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_7_5"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 330,
           "y": 220,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_8_3"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 330,
           "y": 184,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_8_4"
         },
         {
           "type": "label",
-          "fontSize": 32,
-          "fontWeight": "600",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "600",
+            "align": "left",
+            "fill": "white"
+          },
           "x": 330,
           "y": 148,
-          "align": "left",
           "visible": true,
-          "color": "white",
           "text": "1",
           "name": "lb_paytable_8_5"
         },
@@ -2215,6 +2340,72 @@
       "y": 0,
       "visible": false,
       "name": "rules"
+    },
+    {
+      "type": "particle_container",
+      "children": [
+        "coin_01.png",
+        "coin_02.png",
+        "coin_03.png",
+        "coin_04.png",
+        "coin_05.png",
+        "coin_06.png",
+        "coin_07.png",
+        "coin_08.png",
+        "coin_09.png",
+        "coin_10.png",
+        "coin_11.png",
+        "coin_12.png",
+        "coin_13.png",
+        "coin_14.png",
+        "coin_15.png",
+        "coin_16.png",
+        "coin_17.png",
+        "coin_18.png",
+        "coin_19.png"
+      ],
+      "x": 0,
+      "y": 0,
+      "visible": false,
+      "emitterOptionsSource": "./assets/particles.json",
+      "name": "mega_win_coins"
+    },
+    {
+      "type": "picture",
+      "texture": "stars.png",
+      "x": 645,
+      "y": 250,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "visible": false,
+      "name": "mega_win_stars"
+    },
+    {
+      "type": "picture",
+      "texture": "mega_win.png",
+      "x": 645,
+      "y": 250,
+      "anchorx": 0.5,
+      "anchory": 0.5,
+      "visible": false,
+      "name": "mega_win_text"
+    },
+    {
+      "type": "label",
+      "x": 645,
+      "y": 455,
+      "style": {
+        "fontSize": 210,
+        "fontWeight": "600",
+        "align": "center",
+        "fill": "white",
+        "stroke": "#0000ff",
+        "strokeThickness": 10
+      },
+      "anchorx": 0.5,
+      "visible": false,
+      "text": "0",
+      "name": "lb_mega_win"
     }
   ]
 }

@@ -2,7 +2,7 @@ import SlotGame from "./RockClimber";
 
 export default class Rules {
   private game: SlotGame;
-  private paytable: any = {
+  private paytable: { [sym: number]: { [symNum: number]: number } } = {
     1: { 3: 5, 4: 20, 5: 100 },
     2: { 3: 5, 4: 20, 5: 100 },
     3: { 3: 10, 4: 30, 5: 150 },
@@ -21,7 +21,7 @@ export default class Rules {
   setLabelCaptions(): void {
     for (let sym in this.paytable) {
       for (let numSyms in this.paytable[sym]) {
-        this.game.setLabelCaption(`lb_paytable_${sym}_${numSyms}`, `${this.paytable[sym][numSyms] * this.game.clientInfo.bet}`);
+        this.game.setLabelCaption(`lb_paytable_${sym}_${numSyms}`, `${this.paytable[sym][numSyms] * window.client.bet}`);
       }
     }
   }

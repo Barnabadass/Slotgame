@@ -3,7 +3,8 @@ const atlases: string[] = [
   "./assets/atlas1.json",
   "./assets/atlas2.json",
   "./assets/atlas3.json",
-  "./assets/atlas4.json"
+  "./assets/atlas4.json",
+  "./assets/particles.json"
 ];
 
 export default atlases;

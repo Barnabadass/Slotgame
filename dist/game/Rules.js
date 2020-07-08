@@ -18,7 +18,7 @@ var Rules = /** @class */ (function () {
     Rules.prototype.setLabelCaptions = function () {
         for (var sym in this.paytable) {
             for (var numSyms in this.paytable[sym]) {
-                this.game.setLabelCaption("lb_paytable_" + sym + "_" + numSyms, "" + this.paytable[sym][numSyms] * this.game.clientInfo.bet);
+                this.game.setLabelCaption("lb_paytable_" + sym + "_" + numSyms, "" + this.paytable[sym][numSyms] * window.client.bet);
             }
         }
     };

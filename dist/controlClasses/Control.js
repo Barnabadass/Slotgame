@@ -33,6 +33,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var PIXI = __importStar(require("pixi.js"));
+/**
+ * General control (picture, sprite) class
+ */
 var Control = /** @class */ (function (_super) {
     __extends(Control, _super);
     function Control(texture, name) {

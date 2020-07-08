@@ -1,7 +1,9 @@
 const express = require("express");
-const app = express();
 const bodyParser = require("body-parser");
 const uuid = require("uuid");
+const WebSocket = require("ws");
+
+const app = express();
 
 let sessions = {};
 const symbolCount = 8;
@@ -40,46 +42,58 @@ app.get("/", function (req, res) {
   res.sendFile(process.cwd() + "/index.html");
 });
 
-app.post("/start-session/", function (req, res) {
-  let session;
-  if (req.body.sessionId === null) {
-    session = createSession();
-    sessions[session.id] = session;
-  } else {
-    session = sessions[req.body.sessionId];
-  }
-  res.send(session);
-});
-
-app.post("/game-turn/", function (req, res) {
-  sessions[req.body.sessionId].balance -= req.body.bet * req.body.lines;
-  sessions[req.body.sessionId].bet = req.body.bet;
-  sessions[req.body.sessionId].lines = req.body.lines;
-  let reels = generateReels();
-  if (Math.random() > .5) {
-    let prize = determinePrize(reels, req.body.lines, req.body.bet).prize;
-    while (prize === 0) {
-      reels = generateReels();
-      prize = determinePrize(reels, req.body.lines, req.body.bet).prize;
-    }
-  } 
-  sessions[req.body.sessionId].symbols = reels;
-  const { prize, wins } = determinePrize(reels, req.body.lines, req.body.bet);
-  sessions[req.body.sessionId].prize = prize;
-  sessions[req.body.sessionId].balance += prize;
-  sessions[req.body.sessionId].state = prize > 0 ? "prizeState" : "normalState";
-  sessions[req.body.sessionId].wins = wins;
-  res.send(sessions[req.body.sessionId]);
-});
-
 app.listen(3000, function () {
   console.log("server is on");
 });
 
+const wsServer = new WebSocket.Server({ port: 8080 }, function () {
+  console.log("ws server is on");
+});
+wsServer.on("connection", socket => {
+  socket.on("message", msg => {
+    const message = JSON.parse(msg);
+
+    if (message.type === "start_session") {
+      if (sessions[message.sessionId] === undefined) {
+        const session = createSession();
+        sessions[session.sessionId] = session;
+        socket.send(JSON.stringify(session));
+      } else {
+        socket.send(JSON.stringify(sessions[message.sessionId]));
+      }
+    } else if (message.type === "game_turn") {
+      sessions[message.sessionId].balance -= message.bet * message.lines;
+      sessions[message.sessionId].bet = message.bet;
+      sessions[message.sessionId].lines = message.lines;
+      let reels = generateReels();
+      let { prize } = determinePrize(reels, message.lines, message.bet);
+      if (prize === 0 && Math.random() > .4) {
+        while (prize === 0) {
+          reels = generateReels();
+          prize = determinePrize(reels, message.lines, message.bet).prize;
+          if (Math.random() > .9) {
+            while (prize < (message.lines * message.bet * 20)) {
+              reels = generateReels();
+              prize = determinePrize(reels, message.lines, message.bet).prize;
+            }
+          }
+        }
+      }
+      let { wins } = determinePrize(reels, message.lines, message.bet);
+      sessions[message.sessionId].symbols = reels;
+      sessions[message.sessionId].prize = prize;
+      sessions[message.sessionId].balance += prize;
+      sessions[message.sessionId].state = prize > 0 ? "prizeState" : "normalState";
+      sessions[message.sessionId].wins = wins;
+      socket.send(JSON.stringify(sessions[message.sessionId]));
+    }
+  });
+});
+
 function createSession() {
   return {
-    balance: 10,
-    id: uuid.v4(),
+    balance: 1000,
+    sessionId: uuid.v4(),
     lines: 9,
     numSymbols: symbolCount,
     state: "normalState",

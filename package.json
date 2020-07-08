@@ -18,16 +18,20 @@
   "author": "Mikhail Gilev",
   "license": "ISC",
   "devDependencies": {
+    "@types/webpack-env": "^1.15.2",
+    "@types/ws": "^7.2.6",
     "nodemon": "^2.0.4",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "axios": "^0.19.2",
     "express": "^4.17.1",
+    "gsap": "^3.3.4",
+    "pixi-particles": "^4.2.1",
     "pixi.js": "^5.2.4",
     "uuid": "^8.2.0",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "ws": "^7.3.1"
   }
 }

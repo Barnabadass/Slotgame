@@ -59,6 +59,7 @@ var Button = /** @class */ (function (_super) {
         },
         set: function (val) {
             this.isDisabled = val;
+            // as there are no textures for the disabled state, colors are used
             this.tint = this.isDisabled ? 0x777777 : 0xFFFFFF;
         },
         enumerable: false,

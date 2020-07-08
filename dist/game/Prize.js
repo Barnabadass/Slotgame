@@ -57,14 +57,14 @@ var Prize = /** @class */ (function (_super) {
     __extends(Prize, _super);
     function Prize() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.prizeShown = false;
+        _this.prizeShown = false; // tells us whether the prize has been shown (needed for button functionality)
         return _this;
     }
     Prize.prototype.start = function () {
         var _this = this;
+        // if a user reloads the page, he should first see the balance without the prize (it will be added later)
         if (this.prevState === undefined) {
-            this.game.clientInfo.balance -= this.game.clientInfo.prize;
-            this.game.setLabelCaption("lb_balance", this.game.clientInfo.balance);
+            this.game.setLabelCaption("lb_balance", window.client.balance - window.client.prize);
         }
         this.prizeShown = false;
         this.game.enableAllButtons(false);
@@ -75,6 +75,7 @@ var Prize = /** @class */ (function (_super) {
         this.showWinScreen(true);
         this.showPrize()
             .then(function () {
+            _this.game.showMegaWin(false);
             if (!_this.prizeShown) {
                 _this.takeWin();
             }
@@ -87,6 +88,10 @@ var Prize = /** @class */ (function (_super) {
             }
         });
     };
+    /**
+     * Starts winning paylines` and megawin animations and prize sum countup.
+     * Ends either when all these actions end or when user clicks "button_spin" (taking the prize), stopping the execution of said actions
+     */
     Prize.prototype.showPrize = function () {
         return __awaiter(this, void 0, void 0, function () {
             var _this = this;
@@ -95,7 +100,8 @@ var Prize = /** @class */ (function (_super) {
                     case 0: return [4 /*yield*/, Promise.race([
                             Promise.all([
                                 this.lineAnimatorPromise(),
-                                this.showPrizeCountup()
+                                this.showPrizeCountup(),
+                                this.game.showMegaWin(true)
                             ]),
                             new Promise(function (resolve) { return _this.skipResolve = resolve; })
                         ])];
@@ -110,7 +116,7 @@ var Prize = /** @class */ (function (_super) {
         return __awaiter(this, void 0, void 0, function () {
             var _this = this;
             return __generator(this, function (_a) {
-                return [2 /*return*/, new Promise(function (resolve) { return _this.game.addTween("lb_win", 0, _this.game.clientInfo.prize, 0.01 * Math.pow(_this.game.clientInfo.prize, 0.9), resolve); })];
+                return [2 /*return*/, new Promise(function (resolve) { return _this.game.addLabelTween("lb_win", 0, window.client.prize, 0.01 * Math.pow(window.client.prize, 0.9), resolve); })];
             });
         });
     };
@@ -118,24 +124,31 @@ var Prize = /** @class */ (function (_super) {
         var _this = this;
         return new Promise(function (resolve) { return _this.game.lineAnimator.start(resolve); });
     };
+    /**
+     * Either shows the win labels and starts the animation of the win screen (below the reels), or hides them and stops the animation
+     *
+     * @param show - boolean - whether to show or hide the controls
+     */
     Prize.prototype.showWinScreen = function (show) {
         this.game.getControl("win_labels_container").visible = show;
         if (show) {
             this.game.getControl("win_screen").play();
-            this.game.setLabelCaption("lb_win", this.game.clientInfo.prize);
+            this.game.setLabelCaption("lb_win", window.client.prize);
         }
         else {
             this.game.getControl("win_screen").stop();
         }
     };
+    /**
+     * Stops all win animations, adds the prize to the balance and enables buttons for further actions
+     */
     Prize.prototype.takeWin = function () {
         if (this.skipResolve !== undefined) {
             this.skipResolve();
         }
         this.prizeShown = true;
-        this.game.stopTween("lb_win");
-        this.game.setLabelCaption("lb_win", this.game.clientInfo.prize);
-        this.game.clientInfo.balance += this.game.clientInfo.prize;
+        this.game.stopLabelTween("lb_win");
+        this.game.setLabelCaption("lb_win", window.client.prize);
         this.game.updateMainLabels();
         this.game.lineAnimator.stop();
         if (!this.game.autospin) {

@@ -24,6 +24,7 @@ export default class Button extends PIXI.Sprite {
 
   set disabled(val: boolean) {
     this.isDisabled = val;
+    // as there are no textures for the disabled state, colors are used
     this.tint = this.isDisabled ? 0x777777 : 0xFFFFFF;
   }
 

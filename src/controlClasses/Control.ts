@@ -1,5 +1,8 @@
 import * as PIXI from "pixi.js";
 
+/**
+ * General control (picture, sprite) class
+ */
 export default class Control extends PIXI.Sprite {
   private controlName: string;
 

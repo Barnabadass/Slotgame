@@ -10,7 +10,7 @@
 },
 "arrow_active.png":
 {
-	"frame": {"x":655,"y":0,"w":59,"h":168},
+	"frame": {"x":19,"y":0,"w":59,"h":168},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":168},
@@ -18,7 +18,7 @@
 },
 "arrow_back.png":
 {
-	"frame": {"x":714,"y":0,"w":59,"h":168},
+	"frame": {"x":78,"y":0,"w":59,"h":168},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":168},
@@ -26,7 +26,7 @@
 },
 "arrow_forward.png":
 {
-	"frame": {"x":773,"y":0,"w":59,"h":168},
+	"frame": {"x":137,"y":0,"w":59,"h":168},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":168},
@@ -34,7 +34,7 @@
 },
 "icons_value.png":
 {
-	"frame": {"x":832,"y":0,"w":762,"h":267},
+	"frame": {"x":196,"y":0,"w":762,"h":267},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":762,"h":267},
@@ -42,15 +42,23 @@
 },
 "info_btn.png":
 {
-	"frame": {"x":38,"y":0,"w":79,"h":79},
+	"frame": {"x":958,"y":0,"w":79,"h":79},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":79},
 	"sourceSize": {"w":79,"h":79}
 },
+"mega_win.png":
+{
+	"frame": {"x":1037,"y":0,"w":422,"h":351},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":422,"h":351},
+	"sourceSize": {"w":422,"h":351}
+},
 "page_marker.png":
 {
-	"frame": {"x":19,"y":0,"w":19,"h":19},
+	"frame": {"x":1459,"y":0,"w":19,"h":19},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":19},
@@ -58,7 +66,7 @@
 },
 "pers_idle_32.png":
 {
-	"frame": {"x":0,"y":267,"w":249,"h":477},
+	"frame": {"x":1478,"y":0,"w":249,"h":477},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":477},
@@ -66,7 +74,7 @@
 },
 "pers_idle_33.png":
 {
-	"frame": {"x":249,"y":267,"w":249,"h":477},
+	"frame": {"x":1727,"y":0,"w":249,"h":477},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":249,"h":477},
@@ -74,15 +82,23 @@
 },
 "screen.png":
 {
-	"frame": {"x":0,"y":839,"w":1280,"h":800},
+	"frame": {"x":0,"y":477,"w":1280,"h":800},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":800},
 	"sourceSize": {"w":1280,"h":800}
 },
+"stars.png":
+{
+	"frame": {"x":1280,"y":477,"w":670,"h":268},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":670,"h":268},
+	"sourceSize": {"w":670,"h":268}
+},
 "win_lines.png":
 {
-	"frame": {"x":117,"y":0,"w":538,"h":108},
+	"frame": {"x":0,"y":1277,"w":538,"h":108},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":538,"h":108},
@@ -90,7 +106,7 @@
 },
 "window.png":
 {
-	"frame": {"x":498,"y":267,"w":949,"h":572},
+	"frame": {"x":538,"y":1277,"w":949,"h":572},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":949,"h":572},
@@ -104,8 +120,8 @@
 	"version": "1.0",
 	"image": "atlas4.png",
 	"format": "RGBA8888",
-	"size": {"w":1594,"h":1639},
+	"size": {"w":1976,"h":1849},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:b7bc6e8a91f163696ca902a669079b4c:a42e47f38877dbd30c78a1a4b7d106da:f2e50f34845aaedaa2d8765b3e68710e$"
+	"smartupdate": "$TexturePacker:SmartUpdate:045d2f2604939ac667afbc380d0a2e18:6814e2945fc81059e452d60dbc13f5bd:f2e50f34845aaedaa2d8765b3e68710e$"
 }
 }

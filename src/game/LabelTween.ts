@@ -1,11 +1,14 @@
 import SlotGame from "./RockClimber";
 
+/**
+ * This class is responsible for handling changes in numeric label text values (e.g. in prize countups)
+ */
 export default class LabelTween {
   private game: SlotGame;
   private labelName: string;
-  private currentValue: number;
+  private currentValue: number; 
   private endValue: number;
-  private changeAmount: number;
+  private changeAmount: number; // the amount to change the label`s value by during each update cycle
   private isTerminated: boolean;
   private terminationCallback: () => void;
 
@@ -25,6 +28,8 @@ export default class LabelTween {
       if (this.currentValue >= this.endValue) {
         this.currentValue = this.endValue;
         this.stop();
+        // only if the label has finished its work naturally (was not interrupted by some other code)
+        // the callback gets called
         this.terminationCallback();
       }
       this.game.setLabelCaption(this.labelName, this.currentValue.toFixed(0));
